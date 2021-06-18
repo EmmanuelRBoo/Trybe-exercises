@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    margin: 20px 0;
+    padding: 4px;
+}
+
+.cores{
+    max-width: 300px;
+}
+
+.cores div:hover{
+    border: 1px solid black;
+}
+
+.cores div:nth-child(1){
+    background-color: red;
+}
+
+.cores div:nth-child(2){
+    background-color: yellow;
+}
+
+.cores div:nth-child(3){
+    width: 400px;
+    height: 50px;
+    background-color: pink;
+}
+
+.cores div:nth-child(4){
+    background-color: darkslategrey;
+}
+
+.cores div:nth-child(5){
+    background-color: rgb(225, 255, 255);
+}
+
+.cores > div:nth-child(1) h3{
+    color: darkslategrey;
+}
+
+.cores > div:nth-child(2) h3{
+    color: red;
+}
+
+.cores > div:nth-child(3) h3{
+    color: rgb(225, 255, 255);
+}
+
+.cores > div:nth-child(4) h3{
+    color: pink;
+}
+
+.cores > div:nth-child(5) h3{
+    color: yellow;
+}
+
+.cores > div:nth-child(odd) h3{
+    font-style: italic;
+}
