@@ -1,0 +1,61 @@
+h1, p{
+  text-align: center;
+}
+
+ol{
+  background-color: #ccc;
+}
+
+li{
+  list-style: none;
+}
+
+ol:hover{
+  background-color: red;
+}
+
+li:active{
+  font-family: monospace;
+}
+
+/*Para deixar mais bonitinho*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p{
+  margin: 30px 0;
+}
+
+.list{
+  display: flex;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.list li{
+  padding: 8px 30px;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.list li:hover{
+  border: 0.5px solid black;
+}
+
+.ulist{
+  display: flex;
+  justify-content: center;
+}
+
+.ulist li{
+  padding: 8px 30px;
+  list-style-type: decimal;
+}
